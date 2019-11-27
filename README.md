@@ -16,9 +16,8 @@ In github you can see what changes you made to commits.
 ---
 ## Initial Setup
 
-Before you go to your local you need to make a github account and then you log into you account in your local
-In your local you have to type `git config --global user email "you@example.com"`
-
+[Click this link to setup and SSH key between ide50 and Github](https://github.com/hstatsep/ide50)
+Explain what this link does
 
 ---
 ## Repository Setup
