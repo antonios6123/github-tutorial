@@ -26,6 +26,8 @@ In github you can see what changes you made to commits.
 
 All in all this link is just setting up the SSH key and enabling little things within ide to help make the code easier.
 
+Just read the README and follow the directions.
+
 ---
 ## Repository Setup
 
@@ -76,4 +78,5 @@ Once you create this repository you are able to commit and push whatever you wan
 
 ---
 ## Rolling Back Changes
+
 
