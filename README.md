@@ -7,7 +7,7 @@ _by Antonio Silva_
 
 ### Git
 
-_Git is a version control system to keep track of work code._
+_Git is a version control system to keep track of work/code._
 
 _Git does not require GitHub._
 
