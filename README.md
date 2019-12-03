@@ -93,17 +93,17 @@ Remove the hidden .git folder from the git init command. In other words it uniti
 
 `git checkout --file`
 
-
+This command deltes any edits that you make between the current commit and the next one.
 
 `git reset HEAD file`
 
-
+This command will undo the most recent git add that you have.
 
 `git revert`
 
 This command is one of the most useful commands on git in my opinion, because if you make a mistake you can just get the code for it, `git revert` and you fixed that mistake.
 This command is especially useful because no other website has this command.
 
-`git reset`
+`git reset --hard [SHA]` 
 
-
+This command will undo a `git push`.
