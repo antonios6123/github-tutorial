@@ -5,22 +5,32 @@ _by Antonio Silva_
 ---
 ## Git vs. GitHub
 
-Git is a version control system to keep track of work/ code.
+### Git
 
-Git does not require github.
+_Git is a version control system to keep track of work/ code._
 
-Github does require git.
+_Git does not require github._
 
-Git is the command line tool to github.
+_Git is the command line to github._
 
-Github is a website that easily allows people to real time collaborate.
+### Github
 
-Github is the cloud where all of the code lives.
+_Github does require git._
 
-In github you can see what changes you made to commits.
+_Github is a website that easily allows people to real time collaborate._
+
+_Github is the cloud where all of the code lives._
+
+_In github you can see what changes you made to commits._
 
 ---
 ## Initial Setup
+
+To start of github you must make an account that has your first name, first letter of last name and the last 4 letters of your OSIS number.
+
+CLick the free plan and click the option that you've never coded before.
+
+After that go to your IDE, sign in and follow the directions in this link.
 
 [Click this link to setup and SSH key between ide50 and Github](https://github.com/hstatsep/ide50)
 
@@ -54,8 +64,6 @@ Once you create this repository you are able to commit and push whatever you wan
 
 `git init` - Initalizes git in our directory for version control -- only do this once at the beginning. Cd into the folder you want to be the parent folder, git init, and that becomes the parent folder. 
 
-`rm -rf .git` - Remove the hidden .git folder from the git init command
-
 `git add file` or `git add .` - Adds the current/entire directory: all files that have changed (including deleted/renamed files)
 
 `git commit -m` - Takes a “snapshot” of files on the stage. -m adds a message to go along with it to help you keep track of what you changed in this commit.
@@ -78,5 +86,24 @@ Once you create this repository you are able to commit and push whatever you wan
 
 ---
 ## Rolling Back Changes
+
+`rm-rf .git`
+
+Remove the hidden .git folder from the git init command. In other words it unitizializes git.
+
+`git checkout --file`
+
+
+
+`git reset HEAD file`
+
+
+
+`git revert`
+
+This command is one of the most useful commands on git in my opinion, because if you make a mistake you can just get the code for it, `git revert` and you fixed that mistake.
+This command is especially useful because no other website has this command.
+
+`git reset`
 
 
